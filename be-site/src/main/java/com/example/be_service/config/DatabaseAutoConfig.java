@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @Configuration
 @EnableJpaRepositories("com.example.be_service.repository")
-@EntityScan({"com.yas.customer.model"})
+@EntityScan({"com.example.be_service.model"})
 @EnableJpaAuditing(auditorAwareRef = "auditorAware")
 public class DatabaseAutoConfig {
 
